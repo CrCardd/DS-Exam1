@@ -29,9 +29,7 @@ export default class CarrierController{
             }
             res.status(201).json(response);
         } catch (error) {
-            res.status(400).json({ message: "Error : ", error });
+            res.status(400).json({ message: "Erro : ", error });
         }
     }
-
-
 }
